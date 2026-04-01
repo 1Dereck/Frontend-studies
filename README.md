@@ -1,6 +1,8 @@
 # 🌐 Frontend Studies
 
-Repositório dedicado ao aprendizado de desenvolvimento frontend, começando com HTML e evoluindo para CSS, layouts responsivos e integração com backend.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css" />
+</p>
 
 ---
 
