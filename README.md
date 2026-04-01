@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="120"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="120"/>
 </p>
-
 ---
 
 ## 📚 Conteúdo
