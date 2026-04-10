@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Heebo:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+:root {
+    /* Camada 1: Definição das Cores (Paleta) */
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --branco-suave: #F5F5F5;
+    --laranja-principal: #FFA500;
+    --laranja-hover: #BF7C00;
+    --cinza-hover: #808080;
+
+    /* Camada 2: Atribuição de Funções (Semântica) */
+    --cor-fundo: var(--preto);
+    --cor-titulo: var(--laranja-principal);
+    --cor-texto-principal: var(--branco);
+    --cor-texto-secundario: var(--branco-suave);
+    
+    /* Links do Menu */
+    --cor-menu-link: var(--branco-suave);
+    --cor-menu-hover: var(--cinza-hover);
+
+    /* Botões e Interação */
+    --cor-botao-fundo: var(--laranja-principal);
+    --cor-botao-hover: var(--laranja-hover);
+    --cor-botao-texto: var(--branco-suave);
+
+    /* Rodapé */
+    --cor-rodape-fundo: var(--laranja-principal); /* Usando o laranja mais escuro como estava no seu original */
+    --cor-rodape-texto: var(--branco);
+
+    /* Fontes */
+    --fonte-principal: "Roboto Serif", serif;
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 125px;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.5rem; 
+    color: var(--cor-menu-link);
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-menu-hover);
+}
+
+.titulo-destaque {
+    color: var(--cor-titulo);
+}
+
+.cor-destaque-info-lenguage {
+    color: var(--cor-titulo);
+}
+
+.entusiasta-bitcoin {
+    color: var(--cor-texto-principal);
+}
+
+.apresentacao {
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.2rem;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__link {
+    background-color: var(--cor-botao-fundo);
+    color: var(--cor-botao-texto);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-botao-hover);
+}
+.apresentacao__imagem {
+    width: 30%;
+}
+
+.rodape {
+    padding: 10px;
+    color: var(--cor-rodape-texto);
+    background-color: var(--cor-rodape-fundo);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+@media (max-width: 750px) {
+    
+    .cabecalho {
+        padding: 15%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    
+}
