@@ -3,32 +3,32 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="150"/>
 </p>
 
-# Entenda a Revolução do Bitcoin ₿
+# Frontend Studies: Meu Primeiro Projeto Web 🚀
 
-Uma aplicação web educativa focada em explicar os fundamentos do Bitcoin, a importância da liberdade financeira e os conceitos básicos do ecossistema cripto. Este projeto foi desenvolvido para consolidar conhecimentos em estruturação e estilização Frontend.
+Este repositório marca o início da minha jornada no desenvolvimento Frontend. O objetivo central foi aplicar, pela primeira vez, os conceitos de estruturação e estilização de páginas web, utilizando o tema "Revolução do Bitcoin" como base para criar um projeto real e funcional.
 
-## 🚀 O que o projeto entrega
+## 🧠 Aprendizados e Desafios
 
-O site possui uma navegação fluida entre cinco páginas principais, desenvolvidas para educar o usuário de forma clara:
+Como meu primeiro contato com o Frontend, foquei em dominar a base necessária para construir interfaces modernas:
 
-* **Home:** Visão geral da missão do site e links para recursos recomendados (vídeos e cotação).
-* **História:** A origem do protocolo pós-crise de 2008, o bloco gênese e Satoshi Nakamoto.
-* **Autocustódia:** Explicação prática sobre chaves privadas e o conceito *"Not your keys, not your coins"*.
-* **Escassez:** O limite matemático de 21 milhões de moedas e o mecanismo de Halving.
-* **Glossário:** Termos fundamentais da base tecnológica, como Blockchain, Mineração e Nodes.
+- **Semântica HTML5:** Aprendi a estruturar o conteúdo de forma lógica usando tags como `<header>`, `<nav>`, `<section>` e `<footer>` para melhor organização.
+- **Estilização com CSS3:** Aplicação de variáveis (`:root`) para gerenciar cores e fontes, garantindo um código mais limpo e fácil de manter.
+- **Layout com Flexbox:** Utilização do modelo de caixa flexível para alinhar elementos e criar menus e seções organizadas.
+- **Design Responsivo:** Implementação de `@media queries` para garantir que o site seja legível e funcional tanto em desktops quanto em dispositivos móveis.
 
-## 🛠️ Tecnologias e Práticas Utilizadas
+## 📂 Estrutura do Projeto
 
-* **HTML5 Semântico:** Uso correto de tags como `<header>`, `<nav>`, `<main>`, `<section>` e `<footer>` para melhor acessibilidade e estruturação.
-* **CSS3:**
-    * **Variáveis (`:root`):** Padronização da paleta de cores (laranja principal e fundos escuros) e tipografia para facilitar a manutenção.
-    * **Flexbox:** Organização dinâmica dos elementos, como o menu de navegação e as seções de apresentação.
-    * **Design Responsivo:** Uso de Media Queries (`@media`) adaptando o layout, imagens e fontes para telas menores (smartphones e tablets).
-* **Arquitetura:** Separação limpa de responsabilidades com diretórios dedicados para páginas (`/pages`), estilos (`/styles`) e imagens (`/images`).
+O projeto foi organizado para manter uma separação clara entre conteúdo, estilo e mídia:
 
-## 🎯 Próximos Passos e Objetivos
+- **Raiz:** Página principal (`index.html`).
+- **`/pages`:** Páginas secundárias (História, Autocustódia, Escassez e Glossário) para praticar navegação interna.
+- **`/styles`:** Arquivos CSS externos para centralizar a identidade visual.
+- **`/images`:** Gestão de ativos visuais do projeto.
 
-Esta interface bem estruturada e responsiva serve como uma base sólida para dar o próximo passo no desenvolvimento web, permitindo futuras integrações com o backend para tornar a aplicação dinâmica.
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** (Estruturação)
+- **CSS3** (Estilização e Responsividade)
 
 ---
-*Desenvolvido por Dereck.*
+*Este projeto é parte dos meus estudos iniciais em tecnologia, servindo como base sólida para futuros desenvolvimentos integrando lógica de programação e backend.*
