@@ -3,11 +3,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="150"/>
 </p>
 
-# Frontend Studies: Meu Primeiro Projeto Web 🚀
+# Frontend Studies: Meu Primeiro Projeto Web 
 
 Este repositório marca o início da minha jornada no desenvolvimento Frontend. O objetivo central foi aplicar, pela primeira vez, os conceitos de estruturação e estilização de páginas web, utilizando o tema "Revolução do Bitcoin" como base para criar um projeto real e funcional.
 
-## 🧠 Aprendizados e Desafios
+## Aprendizados e Desafios
 
 Como meu primeiro contato com o Frontend, foquei em dominar a base necessária para construir interfaces modernas:
 
